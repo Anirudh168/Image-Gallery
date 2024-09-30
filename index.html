@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Title -->
+     <h1>Image Gallery</h1>
+    <!-- Image Filters -->
+     <div class="container">
+        <button class="active" data-name="all">Show All</button>
+        <button data-name="phone">Phones</button>
+        <button data-name="cloth">Clothes</button>
+        <button data-name="shoe">Shoes</button>
+     </div>
+     <!--End of Image Filters -->
+     <!-- Image Container -->
+      <div class="img-container">
+         <div class="card" data-name="cloth">
+            <div class="box">
+                <img src="images/cloth-1.jpg" alt="Cloth-1">
+            </div>
+            <div class="details">
+                <h2>Cloth-1</h2>
+                <p>This is a Cloth-1 image</p>
+            </div>
+         </div>
+         <div class="card" data-name="phone">
+            <div class="box">
+                <img src="images/phone-1.jpg" alt="Phone-1">
+            </div>
+            <div class="details">
+                <h2>Phone-1</h2>
+                <p>This is a Phone image</p>
+            </div>
+         </div>
+         <div class="card" data-name="shoe">
+            <div class="box">
+                <img src="images/shoe-1.jpg" alt="Shoe-1">
+            </div>
+            <div class="details">
+                <h2>Shoe-1</h2>
+                <p>This is a Shoe image</p>
+            </div>
+         </div>
+         <div class="card" data-name="shoe">
+            <div class="box">
+                <img src="images/shoe-2.jpg" alt="Shoe-2">
+            </div>
+            <div class="details">
+                <h2>Shoe-2</h2>
+                <p>This is a Shoe-2 image</p>
+            </div>
+         </div>
+         <div class="card" data-name="cloth">
+            <div class="box">
+                <img src="images/cloth-2.jpg" alt="Cloth-2">
+            </div>
+            <div class="details">
+                <h2>Cloth-2</h2>
+                <p>This is a Cloth-2 image</p>
+            </div>
+         </div>
+         <div class="card" data-name="phone">
+            <div class="box">
+                <img src="images/phone-2.jpg" alt="Phone-2">
+            </div>
+            <div class="details">
+                <h2>Phone-2</h2>
+                <p>This is a Phone-2 image</p>
+            </div>
+         </div>
+         <div class="card" data-name="cloth">
+            <div class="box">
+                <img src="images/cloth-3.jpg" alt="Cloth-3">
+            </div>
+            <div class="details">
+                <h2>Cloth-3</h2>
+                <p>This is a Cloth-3 image</p>
+            </div>
+         </div>
+      </div>
+      <script src="js/script.js"></script>
+</body>
+</html>
